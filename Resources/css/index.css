@@ -1,0 +1,66 @@
+body {
+    font-family: Helvetica, sans-serif;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: white;
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 30px 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+a.blue {
+    color: blue;
+}
+
+.banner {
+    background-color: bisque;
+    color: white;
+    margin-top: 50px;
+    text-align: center;
+    padding: 100px 0;
+}
+
+#profileLI {
+    width: 500px;
+    height: 500px;
+    filter: drop-shadow(1px 1px 1px);
+}
+
+#Josh {
+    color: aliceblue;
+    font-size: 100px;
+}
+
+.bold {
+    font-weight: 900px;
+}
+
+#greets ul {
+    list-style-type: none;
+    
+}
+
+.joshsection {
+    padding: 20px 50px;
+}
+
+.avatar {
+    background-image: url('../images/women-dress-2.jpg.webp');
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
